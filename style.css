@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+    background: #344a72;
+    color: #fff;
+    line-height: 1.8;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #container {
+      display: block;
+      margin: 1rem auto;
+      max-width: 250px;
+  }
+
+  .form-wrap {
+    background: #fff;
+    padding: 15px 25px;
+    color: #333;
+ 
+  }
+
+  .form-group {
+      display: flex;
+      justify-content:center;
+      flex-direction: column;
+      width: 100%;
+  }
+
+  label {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+
+  #first-name, #last-name, #email, #password, #password2 {
+    display: block;
+    width: 100%;
+  }
+
+  .btn {
+      display: flex;
+      margin: 0.75rem auto;
+    background: darkblue;
+    color: white;
+      
+  }
